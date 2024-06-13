@@ -21,7 +21,6 @@
    (--iterate
     (+ it 1 )
     length-sequence
-    (- ( length data ) length-sequence (- length-sequence 1))
-    )))
+    (- ( length data ) length-sequence))))
 
 (task8 source max-sequence)
